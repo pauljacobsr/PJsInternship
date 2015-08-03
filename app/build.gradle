@@ -3,6 +3,10 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         config {
+            storeFile file('/Users/pauljacobsr/Google Drive/PJ\'sInternship/my-release-key.keystore')
+            storePassword 'alibi12313'
+            keyAlias 'alias_name'
+            keyPassword 'alibi12313'
         }
     }
     compileSdkVersion 22
@@ -26,10 +30,6 @@ android {
         }
     }
     productFlavors {
-        free {
-        }
-        pro {
-        }
     }
 }
 
