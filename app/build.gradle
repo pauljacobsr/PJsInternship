@@ -15,8 +15,8 @@ android {
         applicationId "com.pjsinternship.pauljacobsr.pjsinternship"
         minSdkVersion 10
         targetSdkVersion 22
-        versionCode 11
-        versionName "2.7"
+        versionCode 12
+        versionName "2.8"
     }
     buildTypes {
         release {
